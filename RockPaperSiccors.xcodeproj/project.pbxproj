@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9054271C4DF52500E10236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9054261C4DF52500E10236 /* AppDelegate.swift */; };
+		3F9054291C4DF52500E10236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9054281C4DF52500E10236 /* ViewController.swift */; };
+		3F90542C1C4DF52500E10236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F90542A1C4DF52500E10236 /* Main.storyboard */; };
+		3F90542E1C4DF52500E10236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F90542D1C4DF52500E10236 /* Assets.xcassets */; };
+		3F9054311C4DF52500E10236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F90542F1C4DF52500E10236 /* LaunchScreen.storyboard */; };
+		3F90543C1C4DF52500E10236 /* RockPaperSiccorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90543B1C4DF52500E10236 /* RockPaperSiccorsTests.swift */; };
+		3F9054471C4DF52500E10236 /* RockPaperSiccorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9054461C4DF52500E10236 /* RockPaperSiccorsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F9054381C4DF52500E10236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F90541B1C4DF52500E10236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9054221C4DF52500E10236;
+			remoteInfo = RockPaperSiccors;
+		};
+		3F9054431C4DF52500E10236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F90541B1C4DF52500E10236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F9054221C4DF52500E10236;
+			remoteInfo = RockPaperSiccors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F9054231C4DF52500E10236 /* RockPaperSiccors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RockPaperSiccors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9054261C4DF52500E10236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F9054281C4DF52500E10236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F90542B1C4DF52500E10236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F90542D1C4DF52500E10236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F9054301C4DF52500E10236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F9054321C4DF52500E10236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9054371C4DF52500E10236 /* RockPaperSiccorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperSiccorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F90543B1C4DF52500E10236 /* RockPaperSiccorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperSiccorsTests.swift; sourceTree = "<group>"; };
+		3F90543D1C4DF52500E10236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9054421C4DF52500E10236 /* RockPaperSiccorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperSiccorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9054461C4DF52500E10236 /* RockPaperSiccorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperSiccorsUITests.swift; sourceTree = "<group>"; };
+		3F9054481C4DF52500E10236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9054201C4DF52500E10236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9054341C4DF52500E10236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F90543F1C4DF52500E10236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F90541A1C4DF52500E10236 = {
+			isa = PBXGroup;
+			children = (
+				3F9054251C4DF52500E10236 /* RockPaperSiccors */,
+				3F90543A1C4DF52500E10236 /* RockPaperSiccorsTests */,
+				3F9054451C4DF52500E10236 /* RockPaperSiccorsUITests */,
+				3F9054241C4DF52500E10236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9054241C4DF52500E10236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9054231C4DF52500E10236 /* RockPaperSiccors.app */,
+				3F9054371C4DF52500E10236 /* RockPaperSiccorsTests.xctest */,
+				3F9054421C4DF52500E10236 /* RockPaperSiccorsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9054251C4DF52500E10236 /* RockPaperSiccors */ = {
+			isa = PBXGroup;
+			children = (
+				3F9054261C4DF52500E10236 /* AppDelegate.swift */,
+				3F9054281C4DF52500E10236 /* ViewController.swift */,
+				3F90542A1C4DF52500E10236 /* Main.storyboard */,
+				3F90542D1C4DF52500E10236 /* Assets.xcassets */,
+				3F90542F1C4DF52500E10236 /* LaunchScreen.storyboard */,
+				3F9054321C4DF52500E10236 /* Info.plist */,
+			);
+			path = RockPaperSiccors;
+			sourceTree = "<group>";
+		};
+		3F90543A1C4DF52500E10236 /* RockPaperSiccorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F90543B1C4DF52500E10236 /* RockPaperSiccorsTests.swift */,
+				3F90543D1C4DF52500E10236 /* Info.plist */,
+			);
+			path = RockPaperSiccorsTests;
+			sourceTree = "<group>";
+		};
+		3F9054451C4DF52500E10236 /* RockPaperSiccorsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F9054461C4DF52500E10236 /* RockPaperSiccorsUITests.swift */,
+				3F9054481C4DF52500E10236 /* Info.plist */,
+			);
+			path = RockPaperSiccorsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9054221C4DF52500E10236 /* RockPaperSiccors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F90544B1C4DF52500E10236 /* Build configuration list for PBXNativeTarget "RockPaperSiccors" */;
+			buildPhases = (
+				3F90541F1C4DF52500E10236 /* Sources */,
+				3F9054201C4DF52500E10236 /* Frameworks */,
+				3F9054211C4DF52500E10236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockPaperSiccors;
+			productName = RockPaperSiccors;
+			productReference = 3F9054231C4DF52500E10236 /* RockPaperSiccors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F9054361C4DF52500E10236 /* RockPaperSiccorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F90544E1C4DF52500E10236 /* Build configuration list for PBXNativeTarget "RockPaperSiccorsTests" */;
+			buildPhases = (
+				3F9054331C4DF52500E10236 /* Sources */,
+				3F9054341C4DF52500E10236 /* Frameworks */,
+				3F9054351C4DF52500E10236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9054391C4DF52500E10236 /* PBXTargetDependency */,
+			);
+			name = RockPaperSiccorsTests;
+			productName = RockPaperSiccorsTests;
+			productReference = 3F9054371C4DF52500E10236 /* RockPaperSiccorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F9054411C4DF52500E10236 /* RockPaperSiccorsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9054511C4DF52500E10236 /* Build configuration list for PBXNativeTarget "RockPaperSiccorsUITests" */;
+			buildPhases = (
+				3F90543E1C4DF52500E10236 /* Sources */,
+				3F90543F1C4DF52500E10236 /* Frameworks */,
+				3F9054401C4DF52500E10236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F9054441C4DF52500E10236 /* PBXTargetDependency */,
+			);
+			name = RockPaperSiccorsUITests;
+			productName = RockPaperSiccorsUITests;
+			productReference = 3F9054421C4DF52500E10236 /* RockPaperSiccorsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F90541B1C4DF52500E10236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RodCo;
+				TargetAttributes = {
+					3F9054221C4DF52500E10236 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3F9054361C4DF52500E10236 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3F9054221C4DF52500E10236;
+					};
+					3F9054411C4DF52500E10236 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3F9054221C4DF52500E10236;
+					};
+				};
+			};
+			buildConfigurationList = 3F90541E1C4DF52500E10236 /* Build configuration list for PBXProject "RockPaperSiccors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F90541A1C4DF52500E10236;
+			productRefGroup = 3F9054241C4DF52500E10236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9054221C4DF52500E10236 /* RockPaperSiccors */,
+				3F9054361C4DF52500E10236 /* RockPaperSiccorsTests */,
+				3F9054411C4DF52500E10236 /* RockPaperSiccorsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9054211C4DF52500E10236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9054311C4DF52500E10236 /* LaunchScreen.storyboard in Resources */,
+				3F90542E1C4DF52500E10236 /* Assets.xcassets in Resources */,
+				3F90542C1C4DF52500E10236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9054351C4DF52500E10236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9054401C4DF52500E10236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F90541F1C4DF52500E10236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9054291C4DF52500E10236 /* ViewController.swift in Sources */,
+				3F9054271C4DF52500E10236 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F9054331C4DF52500E10236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F90543C1C4DF52500E10236 /* RockPaperSiccorsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F90543E1C4DF52500E10236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9054471C4DF52500E10236 /* RockPaperSiccorsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F9054391C4DF52500E10236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9054221C4DF52500E10236 /* RockPaperSiccors */;
+			targetProxy = 3F9054381C4DF52500E10236 /* PBXContainerItemProxy */;
+		};
+		3F9054441C4DF52500E10236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F9054221C4DF52500E10236 /* RockPaperSiccors */;
+			targetProxy = 3F9054431C4DF52500E10236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F90542A1C4DF52500E10236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F90542B1C4DF52500E10236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F90542F1C4DF52500E10236 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9054301C4DF52500E10236 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9054491C4DF52500E10236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F90544A1C4DF52500E10236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F90544C1C4DF52500E10236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockPaperSiccors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodco.RockPaperSiccors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F90544D1C4DF52500E10236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RockPaperSiccors/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodco.RockPaperSiccors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F90544F1C4DF52500E10236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RockPaperSiccorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodco.RockPaperSiccorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperSiccors.app/RockPaperSiccors";
+			};
+			name = Debug;
+		};
+		3F9054501C4DF52500E10236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RockPaperSiccorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodco.RockPaperSiccorsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockPaperSiccors.app/RockPaperSiccors";
+			};
+			name = Release;
+		};
+		3F9054521C4DF52500E10236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RockPaperSiccorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodco.RockPaperSiccorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RockPaperSiccors;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F9054531C4DF52500E10236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RockPaperSiccorsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodco.RockPaperSiccorsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RockPaperSiccors;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F90541E1C4DF52500E10236 /* Build configuration list for PBXProject "RockPaperSiccors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9054491C4DF52500E10236 /* Debug */,
+				3F90544A1C4DF52500E10236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F90544B1C4DF52500E10236 /* Build configuration list for PBXNativeTarget "RockPaperSiccors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F90544C1C4DF52500E10236 /* Debug */,
+				3F90544D1C4DF52500E10236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F90544E1C4DF52500E10236 /* Build configuration list for PBXNativeTarget "RockPaperSiccorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F90544F1C4DF52500E10236 /* Debug */,
+				3F9054501C4DF52500E10236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F9054511C4DF52500E10236 /* Build configuration list for PBXNativeTarget "RockPaperSiccorsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9054521C4DF52500E10236 /* Debug */,
+				3F9054531C4DF52500E10236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F90541B1C4DF52500E10236 /* Project object */;
+}
