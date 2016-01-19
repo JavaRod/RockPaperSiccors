@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RockPaperSiccors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,80 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMe-wh-AXL">
+                                <rect key="frame" x="413" y="134" width="59" height="32"/>
+                                <state key="normal" image="rock"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11w-y6-BXX">
+                                <rect key="frame" x="282" y="267" width="37" height="32"/>
+                                <state key="normal" image="scissors"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eH6-Ua-DgQ">
+                                <rect key="frame" x="151" y="134" width="37" height="32"/>
+                                <state key="normal" image="paper"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="11w-y6-BXX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="247" id="D1I-Yb-2mP"/>
+                            <constraint firstItem="wMe-wh-AXL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="FLM-Hk-l7h"/>
+                            <constraint firstItem="11w-y6-BXX" firstAttribute="leading" secondItem="eH6-Ua-DgQ" secondAttribute="trailing" constant="94" id="YOE-he-Odd"/>
+                            <constraint firstItem="11w-y6-BXX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bzO-Rj-PSo"/>
+                            <constraint firstItem="eH6-Ua-DgQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="114" id="jGy-h2-sNn"/>
+                            <constraint firstItem="wMe-wh-AXL" firstAttribute="leading" secondItem="11w-y6-BXX" secondAttribute="trailing" constant="94" id="rSz-jj-aWg"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-94" y="421"/>
+        </scene>
+        <!--Results View Controller-->
+        <scene sceneID="82c-9M-Ue9">
+            <objects>
+                <viewController id="gLm-b1-ikh" customClass="ResultsViewController" customModule="RockPaperSiccors" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h9f-4E-gIi"/>
+                        <viewControllerLayoutGuide type="bottom" id="sKX-Yo-Ouo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l7F-8V-3vd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQD-JL-jrg">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izB-ND-dV7">
+                                <rect key="frame" x="279" y="157" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4B-bM-mHa">
+                                <rect key="frame" x="277" y="429" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="izB-ND-dV7" firstAttribute="centerX" secondItem="l7F-8V-3vd" secondAttribute="centerX" id="HWS-4f-8Bi"/>
+                            <constraint firstItem="b4B-bM-mHa" firstAttribute="centerX" secondItem="l7F-8V-3vd" secondAttribute="centerX" id="If3-cV-HKq"/>
+                            <constraint firstItem="TQD-JL-jrg" firstAttribute="centerY" secondItem="l7F-8V-3vd" secondAttribute="centerY" id="dUM-wS-FNw"/>
+                            <constraint firstItem="TQD-JL-jrg" firstAttribute="top" secondItem="izB-ND-dV7" secondAttribute="bottom" constant="58" id="fBq-4B-x8e"/>
+                            <constraint firstItem="b4B-bM-mHa" firstAttribute="top" secondItem="TQD-JL-jrg" secondAttribute="bottom" constant="65" id="njz-dT-fwR"/>
+                            <constraint firstItem="TQD-JL-jrg" firstAttribute="centerX" secondItem="l7F-8V-3vd" secondAttribute="centerX" id="w7N-2b-aR5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="es5-Dv-pys" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="433"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="paper" width="37" height="32"/>
+        <image name="rock" width="37" height="32"/>
+        <image name="scissors" width="37" height="32"/>
+    </resources>
 </document>

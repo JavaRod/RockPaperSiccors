@@ -14,6 +14,7 @@
 		3F9054311C4DF52500E10236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F90542F1C4DF52500E10236 /* LaunchScreen.storyboard */; };
 		3F90543C1C4DF52500E10236 /* RockPaperSiccorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F90543B1C4DF52500E10236 /* RockPaperSiccorsTests.swift */; };
 		3F9054471C4DF52500E10236 /* RockPaperSiccorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9054461C4DF52500E10236 /* RockPaperSiccorsUITests.swift */; };
+		3F9054571C4DF8F600E10236 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9054561C4DF8F600E10236 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3F9054421C4DF52500E10236 /* RockPaperSiccorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperSiccorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9054461C4DF52500E10236 /* RockPaperSiccorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperSiccorsUITests.swift; sourceTree = "<group>"; };
 		3F9054481C4DF52500E10236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9054561C4DF8F600E10236 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3F90542D1C4DF52500E10236 /* Assets.xcassets */,
 				3F90542F1C4DF52500E10236 /* LaunchScreen.storyboard */,
 				3F9054321C4DF52500E10236 /* Info.plist */,
+				3F9054561C4DF8F600E10236 /* ResultsViewController.swift */,
 			);
 			path = RockPaperSiccors;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				3F9054291C4DF52500E10236 /* ViewController.swift in Sources */,
 				3F9054271C4DF52500E10236 /* AppDelegate.swift in Sources */,
+				3F9054571C4DF8F600E10236 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
