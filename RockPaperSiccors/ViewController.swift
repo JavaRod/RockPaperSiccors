@@ -19,6 +19,20 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func choosePaper(sender: AnyObject) {
+        
+        //Get the results view controller
+        var controller: ResultsViewController
+        controller = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController
+        
+        controller.player = 0
+        controller.computer = Int(arc4random_uniform(3))
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+        
+    }
 
 
 }

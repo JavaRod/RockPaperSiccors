@@ -28,6 +28,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eH6-Ua-DgQ">
                                 <rect key="frame" x="151" y="134" width="37" height="32"/>
                                 <state key="normal" image="paper"/>
+                                <connections>
+                                    <action selector="choosePaper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZJm-K6-RHn"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -48,7 +51,7 @@
         <!--Results View Controller-->
         <scene sceneID="82c-9M-Ue9">
             <objects>
-                <viewController id="gLm-b1-ikh" customClass="ResultsViewController" customModule="RockPaperSiccors" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsViewController" id="gLm-b1-ikh" customClass="ResultsViewController" customModule="RockPaperSiccors" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h9f-4E-gIi"/>
                         <viewControllerLayoutGuide type="bottom" id="sKX-Yo-Ouo"/>
@@ -57,9 +60,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQD-JL-jrg">
-                                <rect key="frame" x="180" y="236" width="240" height="128"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izB-ND-dV7">
                                 <rect key="frame" x="279" y="157" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -67,9 +67,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4B-bM-mHa">
-                                <rect key="frame" x="277" y="429" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="264" y="428" width="72" height="30"/>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="playAgainPressed:" destination="gLm-b1-ikh" eventType="touchUpInside" id="cCM-G2-4La"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQD-JL-jrg">
+                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -81,6 +87,10 @@
                             <constraint firstItem="TQD-JL-jrg" firstAttribute="centerX" secondItem="l7F-8V-3vd" secondAttribute="centerX" id="w7N-2b-aR5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="TQD-JL-jrg" id="n5D-lq-kUM"/>
+                        <outlet property="outcome" destination="izB-ND-dV7" id="572-DH-Vde"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="es5-Dv-pys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
