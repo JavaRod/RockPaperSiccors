@@ -20,10 +20,16 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMe-wh-AXL">
                                 <rect key="frame" x="413" y="134" width="59" height="32"/>
                                 <state key="normal" image="rock"/>
+                                <connections>
+                                    <action selector="chooseRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LPL-3Y-rz1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="11w-y6-BXX">
                                 <rect key="frame" x="282" y="267" width="37" height="32"/>
                                 <state key="normal" image="scissors"/>
+                                <connections>
+                                    <segue destination="gLm-b1-ikh" kind="presentation" identifier="chooseScissors" id="z2s-dE-Mqi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eH6-Ua-DgQ">
                                 <rect key="frame" x="151" y="134" width="37" height="32"/>
@@ -43,6 +49,9 @@
                             <constraint firstItem="wMe-wh-AXL" firstAttribute="leading" secondItem="11w-y6-BXX" secondAttribute="trailing" constant="94" id="rSz-jj-aWg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="gLm-b1-ikh" kind="presentation" identifier="chooseRock" id="oJa-J5-7fy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,7 +72,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izB-ND-dV7">
                                 <rect key="frame" x="279" y="157" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4B-bM-mHa">
@@ -102,4 +111,7 @@
         <image name="rock" width="37" height="32"/>
         <image name="scissors" width="37" height="32"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="z2s-dE-Mqi"/>
+    </inferredMetricsTieBreakers>
 </document>

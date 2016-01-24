@@ -34,6 +34,28 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func chooseRock(sender: AnyObject) {
+        
+        
+        
+        performSegueWithIdentifier("chooseRock", sender: self)
+        
+    }
+    
+    
+    override func prepareForSegue(_ segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "chooseRock" {
+            let controller = segue.destinationViewController as! ResultsViewController
+            
+            controller.player = 1
+            controller.computer = Int(arc4random_uniform(3))
+        } else if segue.identifier == "chooseScissors" {
+            let controller = segue.destinationViewController as! ResultsViewController
+            
+            controller.player = 2
+            controller.computer = Int(arc4random_uniform(3))
+        }
+    }
 
 }
 

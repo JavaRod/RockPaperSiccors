@@ -36,6 +36,18 @@ class ResultsViewController : UIViewController {
         } else if (player == 0 && computer == 2) {
             outcome.text = "You lose"
             imageView.image = UIImage(named: "ScissorsCutPaper")
+        } else if (player == 1 && computer == 0) {
+            outcome.text = "You lose"
+            imageView.image = UIImage(named: "PaperCoversRock")
+        } else if (player == 1 && computer == 2) {
+            outcome.text = "You win"
+            imageView.image = UIImage(named: "RockCrushesScissors")
+        } else if (player == 2 && computer == 0) {
+            outcome.text = "You win"
+            imageView.image = UIImage(named: "ScissorsCutPaper")
+        } else if (player == 2 && computer == 1) {
+            outcome.text = "You lose"
+            imageView.image = UIImage(named: "RockCrushesScissors")
         }
         
     }
